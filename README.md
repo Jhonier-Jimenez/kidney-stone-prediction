@@ -8,7 +8,7 @@ En la carpeta llamada Fase-1 encontraras los archivos utilizados en esta primera
 # **Contextualización:**
 
 ## **1. Introducción**
-Este script en Python demuestra la implementación de dos modelos de machine learning: XGBoost y Regresión Logística, utilizando la biblioteca scikit-learn en Python. Los modelos se aplican a un conjunto de datos de análisis de orina. El objetivo es realizar un análisis predictivo para determinar la presencia de cálculos en el riñon.
+Este proyecto demuestra la implementación de dos modelos de machine learning: XGBoost y Regresión Logística, utilizando la biblioteca scikit-learn en Python. Los modelos se aplican a un conjunto de datos de análisis de orina. El objetivo es realizar un análisis predictivo para determinar la presencia de cálculos en el riñon.
 
 ## **2. Bibliotecas y Dependencias Requeridas**
 - Versión de Python: 3.x
