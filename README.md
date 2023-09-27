@@ -2,7 +2,8 @@
 # kidney-stone-prediction
 
 En el presente repositorio encontraras las fases que se llevaran acabo para la construcción y ejecucion del proyecto.
-Este modelo fue obtenido de una de las contribuciones realizadas a la competencia de Kaggle [Kidney Stone Prediction based on Urine Analysis]
+Este modelo fue obtenido de una de las contribuciones realizadas a la competencia de Kaggle [Kidney Stone Prediction based on Urine Analysis](https://www.kaggle.com/datasets/vuppalaadithyasairam/kidney-stone-prediction-based-on-urine-analysis).
+
 En la carpeta llamada Fase-1 encontraras los archivos utilizados en esta primera fase del proyecto asi como un archivo README.md con las instrucciones especificas de como ejecutar correctamente esta fase.
 
 # **Contextualización y descripción**
