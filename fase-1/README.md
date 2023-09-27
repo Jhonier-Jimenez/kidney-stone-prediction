@@ -8,4 +8,4 @@
    - Se realizará una preparación y análisis de los datasets; mediante un Correlation Heatmap, Pair Plots, entre otros
    - Para finalmente entrenar los modelos, ejecutarlos y analizar sus resultados.
 
-Dentro del archivo podrás encontrar comentarios y explicaciones de lo que hace cada una de las secciones de código y cada uno de los métodos. Así como una amplia contextualizaicón del problema, del dataset y un análisis explicación de los resultados.
+Dentro del archivo podrás encontrar celdas de texto con la tabla de contenido, comentarios y explicaciones de lo que hace cada una de las secciones de código y cada uno de los métodos. Así como una amplia contextualizaicón del problema, del dataset y un análisis explicación de los resultados. Estas celdas de texto no es necesario ejecutarlas, son de lectura únicamente.
