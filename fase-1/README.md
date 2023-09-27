@@ -1,6 +1,6 @@
 ## Instrucciones de Ejecución Fase-1
 
-1. El **notebook kidney_stone_prediction_eda_binary_classification.ipynb**, se encuentra dentro de esta carpeta nombrada fase-1. Al abrir este notebook notarás que este incluye el botón que permite abrirlo en Google Colab, debes hacer click en este botón
+1. El **notebook kidney_stone_prediction_eda_binary_classification.ipynb**, se encuentra dentro de los archivos de esta carpeta. Al abrir este notebook notarás que este incluye el botón que permite abrirlo en Google Colab, debes hacer click en este botón
 ![image](https://github.com/Jhonier-Jimenez/kidney-stone-prediction/assets/32853930/3562ee45-58aa-43c0-8a2a-c65f398308f0)
 
 2. Dentro del notebook podrás encontrar celdas de texto con la tabla de contenido, comentarios y explicaciones de lo que hace cada una de las secciones de código y cada uno de los métodos. Así como una amplia contextualizaicón del problema, del dataset, y un análisis y explicación de los resultados. Estas celdas de texto no es necesario ejecutarlas, son de lectura únicamente y están distribuidas en todo el notebook.
