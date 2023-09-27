@@ -5,7 +5,7 @@ En el presente repositorio encontraras las fases que se llevaran acabo para la c
 Este modelo fue obtenido de una de las contribuciones realizadas a la competencia de Kaggle [Kidney Stone Prediction based on Urine Analysis]
 En la carpeta llamada Fase-1 encontraras los archivos utilizados en esta primera fase del proyecto asi como un archivo README.md con las instrucciones especificas de como ejecutar correctamente esta fase.
 
-# **Contextualización:**
+# **Contextualización y descripción**
 
 ## **1. Introducción**
 Este proyecto demuestra la implementación de dos modelos de machine learning: XGBoost y Regresión Logística, utilizando la biblioteca scikit-learn en Python. Los modelos se aplican a un conjunto de datos de análisis de orina. El objetivo es realizar un análisis predictivo para determinar la presencia de cálculos en el riñon.
