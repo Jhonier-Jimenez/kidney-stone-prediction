@@ -12,7 +12,8 @@ Este proyecto demuestra la implementación de dos modelos de machine learning: X
 
 ## **2. Bibliotecas y Dependencias Requeridas**
 - Versión de Python: 3.x
-- Paquetes:
+
+Librerías:
 - Pandas 
 - Matplotlib 
 - NumPy 
