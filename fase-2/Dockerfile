@@ -13,5 +13,5 @@ RUN pip install -r requirements.txt
 # Expose port in case of need
 EXPOSE 8080
 
-# Specify the command to run your application
-CMD ["python", "/app/scripts/train.py"]
+# Run train.py and then run predict.py
+CMD ["python", "/app/scripts/train.py"] and ["python", "/app/scripts/predict.py"]
