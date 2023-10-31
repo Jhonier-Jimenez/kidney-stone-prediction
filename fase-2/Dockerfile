@@ -13,5 +13,13 @@ RUN pip install -r requirements.txt
 # Expose port in case of need
 EXPOSE 8080
 
-# Run train.py and then run predict.py
-CMD ["python", "/app/scripts/train.py"] and ["python", "/app/scripts/predict.py"]
+#IF YOU WANT THE DOCKER IMAGE TO EXECUTE BOTH SCRIPTS AUTOMATICALLY
+# Start a Bash shell and execute commands automatically by removing the comment to the next line
+#CMD ["/bin/bash", "-c", "python /app/scripts/train.py && python /app/scripts/predict.py"]
+
+# Set the default command to run /bin/bash
+CMD ["/bin/bash"]
+
+
+#You can execute either the train.py by calling (python scripts/train.py)
+#or predict.py by calling python scripts/predict.py

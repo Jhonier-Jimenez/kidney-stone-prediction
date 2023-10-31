@@ -14,7 +14,7 @@ DEFAULT_MODEL_FILE = 'model.pkl'
 parser = argparse.ArgumentParser()
 parser.add_argument('--data_file', default=DEFAULT_DATA_FILE, required=False, type=str, help='a csv file with train data')
 parser.add_argument('--model_file', default=DEFAULT_MODEL_FILE, required=False, type=str, help='where the trained model will be stored')
-parser.add_argument('--overwrite_model', default=False, action='store_true', help='if sets overwrites the model file if it exists')
+parser.add_argument('--overwrite_model', default=True, action='store_true', help='if sets overwrites the model file if it exists')
 
 
 args = parser.parse_args()
