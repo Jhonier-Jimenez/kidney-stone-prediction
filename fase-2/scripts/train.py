@@ -27,7 +27,7 @@ logger.info("loading train data")
 data = pd.read_csv(data_file)
 
 # Data cleaning
-train_data = data.drop('id', axis=1, inplace = True)
+train_data = data.drop('id', axis=1)
 
 # split data into X and y
 X = train_data.drop(['target'], axis=1)

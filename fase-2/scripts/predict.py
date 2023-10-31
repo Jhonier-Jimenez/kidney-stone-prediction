@@ -25,16 +25,16 @@ if not os.path.isfile(model_file):
 
 logger.info("loading input data")
 data = pd.read_csv(input_file)
-data.drop('id', axis=1)
+train_data = data.drop('id', axis=1)
 
 logger.info("loading model")
 with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 logger.info("making predictions")
-predictions = model.predict(data)
+predictions = model.predict(train_data)
 
 logger.info(f"saving predictions to {predictions_file}")
 
 submission = pd.DataFrame({'id': data['id'], 'target': predictions})
-submission.to_csv('predictions_file.csv', index=False)
+submission.to_csv(predictions_file, index=False)
