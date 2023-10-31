@@ -4,10 +4,14 @@ import os
 import pandas as pd
 import pickle
 
+DEFAULT_INPUT_FILE = 'datasets/test.csv'
+DEFAULT_MODEL_FILE = 'model.pkl'
+DEFAULT_PREDICTIONS_FILE = 'predictions/predictions.csv'
+
 parser = argparse.ArgumentParser()
-parser.add_argument('--input_file', required=True, type=str, help='a csv file with input data (no targets)')
-parser.add_argument('--model_file', required=True, type=str, help='a pkl file with a model already stored (see train.py)')
-parser.add_argument('--predictions_file', required=True, type=str, help='a csv file where predictions will be saved to')
+parser.add_argument('--input_file', default=DEFAULT_INPUT_FILE, required=False, type=str, help='a csv file with input data (no targets)')
+parser.add_argument('--model_file', default=DEFAULT_MODEL_FILE, required=False, type=str, help='a pkl file with a model already stored (see train.py)')
+parser.add_argument('--predictions_file', default=DEFAULT_PREDICTIONS_FILE, required=False, type=str, help='a csv file where predictions will be saved to')
 
 args = parser.parse_args()
 
